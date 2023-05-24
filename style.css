@@ -1,0 +1,86 @@
+:root {
+    --background: #efefef;
+    --foreground: #121212;
+    --primary: #5c5f77;
+}
+
+body {
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 99px;
+    border: 3px solid var(--primary)
+}
+
+h1 {
+    border-bottom: 3px solid var(--primary);
+}
+
+h2 {
+    border-bottom: 2px dotted var(--primary);
+}
+
+nav {
+    display: flex;
+
+    height: 3em;
+    font-size: 20px;
+    color: var(--background);
+    padding: 1.5em 2em 0 2em;
+    justify-content: space-between;
+    background-color: var(--primary);
+    box-shadow: 0 0 15px var(--foreground);
+}
+
+nav a {
+    color: var(--background);
+}
+
+main {
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+.horizontal {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.horizontal p {
+    margin: 1.4em;
+}
+
+.box {
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 3px solid var(--primary);
+    background-color: var(--background);
+}
+
+.box p {
+    padding: 0 1em 0 1em;
+}
+
+.box summary {
+    padding: 1em;
+    color: var(--background);
+    background-color: var(--primary);
+}

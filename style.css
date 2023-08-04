@@ -84,3 +84,9 @@ a:hover, a:focus {
     color: var(--background);
     background-color: var(--primary);
 }
+
+@media only screen and (max-width: 750px) {
+    main {
+        margin: 2em;
+    }
+}
